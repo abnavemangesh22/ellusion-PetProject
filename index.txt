@@ -1,0 +1,64 @@
+https://forms.office.com/r/02zva297ku
+
+https://www.google.com/url?q=https://docs.google.com/spreadsheets/d/1me41s8MLIlhEL59aD0uD6GhkKIA6KgHT95ajHbvCHWc/edit?usp%3Dsharing&sa=D&source=calendar&ust=1688138277701199&usg=AOvVaw0Wh7phizAyf1ofBdp02kC-
+
+
+
+Design of Python Spark scripts as per the solution requirements
+
+
+# terraform workspace list
+# terraform workspace new dev
+# terraform workspace show
+# terraform workspace select dev
+# terraform workspace select dev
+# terraform workspace select dev
+# terraform workspace select dev
+# terraform workspace select dev
+# terraform workspace select dev
+# terraform workspace select dev
+# terraform workspace select dev
+# terraform workspace select dev
+# terraform workspace select dev
+# terraform workspace select dev
+# terraform workspace select dev
+# terraform workspace select dev
+# terraform workspace select dev
+# terraform workspace select dev
+
+
+terraform modules:
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+    <title>Welcome to Terraform World</title>
+</head>
+<body style="background-color:rgb(127, 178, 210);">
+   <h1>Welcome to  Terraform Modules Demo</h1>
+   <h2>Build Terraform Modules</h2>
+   <p>Terraform Modules - Step by Step</p>
+</body>
+</html>
+
+
+
+{
+  "Version": "2012-10-17",
+  "Statement": [
+      {
+          "Sid": "PublicReadGetObject",
+          "Effect": "Allow",
+          "Principal": "*",
+          "Action": [
+              "s3:GetObject"
+          ],
+          "Resource": [
+              "arn:aws:s3:::mybucket4558/*"
+          ]
+      }
+  ]
+}
+
+
+

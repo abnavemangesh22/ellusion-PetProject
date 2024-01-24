@@ -1,0 +1,7 @@
+---		 
+ - name: Line in the file
+   hosts: 172.31.91.198
+   become: yes
+   tasks:
+   - name: Create a file over there
+     lineinfile: path=/tmp/resolv.conf line="This is my line in the file"

@@ -1,0 +1,20 @@
+version: '3'
+services:
+  petclinic: 
+    image: schoolofdevops/petclinic:dev  
+    ports:
+      - "9999:8080"
+    deploy:
+      replicas: 8
+      update_config:
+        parallelism: 2
+        delay: 20s
+      restart_policy:
+        condition: on-failure 
+  mysql:
+    image: mysql:5.7
+    ports:
+      - "3306:3306"
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_DATABASE=test

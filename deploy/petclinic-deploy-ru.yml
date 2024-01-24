@@ -1,0 +1,27 @@
+apiVersion: apps/v1beta1
+kind: Deployment
+metadata:
+  name: petclinic
+  labels:
+    app: petclinic
+spec:
+  replicas: 5
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxUnavailable: 1
+      maxSurge: 2
+  minReadySeconds: 25
+  template:
+    metadata:
+      labels:
+        app: petclinic
+  minReadySeconds: 25
+    spec:
+      containers:
+      - image: schoolofdevops/petclinic:v1
+        imagePullPolicy: Always
+        name: petclinic
+        ports:
+        - containerPort: 8080
+          protocol: TCP
